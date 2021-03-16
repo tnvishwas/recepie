@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="homepage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+           function displayMenue() {
+                    document.getElementById("mySidenav").style.width = "250px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div class="col-1">
+            <div class="top-bar">
+                <img src="images/menue-icon.png" class="menue-icon" onclick="displayMenue()">
+                <h3>Lorem</h3>
+                <img src="images/cart.png" class="cart">
+            </div>
+
+        <div id="mySidenav" class="sidenav">
+            
+            <pre>Lorem 
+Ipsum</pre>
+             <div id="menue-list">
+                <a href="#"><strike>About</strike></a>
+                <a href="#">Services</a>
+                <a href="#">Cusins</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+                <a href="#">Book</a>
+            </div>
+            <button type="button">Cart</button>
+          </div>
+        </div>
+
+     <div class="col-2">
+          
+        <div class="header">
+            <h1>
+                <pre>What are you 
+having for Lunch?</pre>
+            </h1>
+          
+           
+            <p class="footer">
+                <pre id="pretag">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit,
+                sed do eiumsmod tempor
+                incididunt ut labore et.
+                </pre>
+            </p>
+
+          </div>
+
+          <div class="images-container">
+            <div class="row">
+                <figure class="column"> 
+                    <img src="./images/taco.jfif" >
+                    <figcaption>Maxican Taco</figcaption>
+                </figure>       
+                <figure class="column"> 
+                    <img src="./images/pizza.jfif" >
+                    <figcaption>Farmhouse Pizza</figcaption>
+                </figure>
+                <figure class="column"> 
+                    <img src="./images/burger.jfif" >
+                    <figcaption>Chicken Burger</figcaption>
+                </figure>
+                <figure class="column"> 
+                    <img src="./images/noodles.jfif" >
+                    <figcaption>Hakka Noodles</figcaption>
+                </figure >
+                <figure class="column" > 
+                    <img src="./images/nachos.jfif" >
+                    <figcaption>Loaded Nachos</figcaption>
+                </figure>
+                <figure class="column"> 
+                    <img src="./images/fried-rice.jfif" >
+                    <figcaption>Fried Rice</figcaption>
+                </figure>
+            
+            </div>  
+          </div>
+        </div>
+    </body>
+</html>
